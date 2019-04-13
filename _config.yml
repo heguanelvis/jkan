@@ -1,7 +1,7 @@
-title: JKAN
-greeting: Welcome to JKAN
-description: A lightweight, backend-free open data portal, powered by Jekyll.
-baseurl: /jkan
+title: CITY OPEN DATA
+greeting: City of Chicago Open Data
+description: Open government data about the city of Chicago
+baseurl: /jkan-opendata
 logo: /img/jkan.png
 
 # Site theme
