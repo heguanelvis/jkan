@@ -1,7 +1,7 @@
 title: CITY OPEN DATA
 greeting: City of Chicago Open Data
 description: Open government data about the city of Chicago
-baseurl: /jkan-opendata
+baseurl: /jkan
 logo: /img/jkan.png
 
 # Site theme
