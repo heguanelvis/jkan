@@ -10,7 +10,7 @@ resources:
   - name: Detroit Public School Locations Shapefile
     url: 'https://data.detroitmi.gov/api/geospatial/h8ij-tu87?method=export&format=Shapefile'
     format: shp
-  - name: Air Monitoring Stations CSV
+  - name: Detroit Public School Locations CSV
     url: 'https://data.detroitmi.gov/api/views/jrad-k5v9/rows.csv?accessType=DOWNLOAD'
     format: csv
 license: 'http://www.opendefinition.org/licenses/odc-odbl'
