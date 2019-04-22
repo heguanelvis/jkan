@@ -73,7 +73,7 @@ table>tbody>tr>td, .table>tbody>tr>td {
 } */
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .table-striped > tbody > tr:nth-of-type(even),
@@ -96,9 +96,10 @@ h2 {
   font-size: 4rem;
 }
 
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  background: rgba(0, 0, 0, 0.5) !important;
-  color: whitesmoke !important;
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-menu>li>a {
+  color: whitesmoke;
 }
