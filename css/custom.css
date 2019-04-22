@@ -112,7 +112,9 @@ h2 {
   color: black;
 }
 
-li[role="presentation"] .active {
-  background: whitesmoke !important;
-  color: black !important;
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background: whitesmoke;
+  color: black;
 }
