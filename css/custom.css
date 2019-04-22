@@ -149,6 +149,7 @@ a.btn-default {
 #general label,
 #general .help-block,
 #authentication label,
-#authentication .help-block {
+#authentication .help-block,
+#theme {
   color: black;
 }
