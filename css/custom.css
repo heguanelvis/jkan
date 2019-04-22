@@ -136,3 +136,8 @@ h2 {
   background: rgba(0, 0, 0, 0.5);
   color: whitesmoke;
 }
+
+a.btn-default {
+  background: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+}
