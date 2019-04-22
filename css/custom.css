@@ -146,6 +146,7 @@ a.btn-default {
   color: whitesmoke;
 }
 
-form label {
-  color: whitesmoke;
+form label,
+.help-block {
+  color: black;
 }
