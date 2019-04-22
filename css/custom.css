@@ -102,10 +102,18 @@ h2 {
 
 .dropdown-menu > li > a {
   color: whitesmoke;
+  cursor: pointer;
 }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   background: whitesmoke;
   color: black;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
 }
