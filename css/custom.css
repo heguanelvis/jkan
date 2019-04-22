@@ -99,6 +99,6 @@ h2 {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background: rgba(0, 0, 0, 0.5);
-  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: whitesmoke !important;
 }
