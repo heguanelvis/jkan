@@ -115,4 +115,5 @@ h2 {
 .active {
   background: whitesmoke;
   color: black;
+  border: 1px black solid;
 }
