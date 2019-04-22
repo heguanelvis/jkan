@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Titan+One');
+
+/* 
+font-family: 'Titan One', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  background: #70e1f5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffd194, #70e1f5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar,
+.jumbotron,
+a.thumbnail {
+  background: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: black;
+  font-weight: 1000;
+  background: whitesmoke;
+}
+
+h3 {
+  color: black;
+}
+
+.breadcrumb {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+div.list-group > .list-group-item {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+span.badge, span.label-default {
+  background: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+}
+
+dataset {
+  color: black;
+  border-bottom: 1px whitesmoke solid
+}
+
+.media-body > p {
+  color: black;
+}
+
+div.panel,
+.panel-default > .panel-heading {
+  background: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+}
+
+/* table>tbody>tr>th, .table>tbody>tr>th,
+table>tbody>tr>td, .table>tbody>tr>td {
+  background: rgba(0, 0, 0, 0.5) 
+  color: whitesmoke;
+} */
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background: rgba(0, 0, 0, 0.7) 
+}
+
+.table-striped>tbody>tr:nth-of-type(even), 
+.table-striped>tbody>tr:nth-of-type(even)>td>a {
+  color: black;
+}
+
+h1 > span, h1 + p, h2 {
+    color: black;
+}
+
+.jumbotron > h1 + p {
+    color: whitesmoke;
+}
+
+.jumbotron > h1 {
+    font-family: 'Titan One', cursive;
+    font-size: 4rem;
+}
