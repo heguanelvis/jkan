@@ -27,7 +27,8 @@ a.thumbnail {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active {
   color: black;
   font-weight: 1000;
   background: whitesmoke;
@@ -109,11 +110,4 @@ h2 {
 .dropdown-menu > li > a:focus {
   background: whitesmoke;
   color: black;
-}
-
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  background: rgba(0, 0, 0, 0.5);
-  color: whitesmoke;
 }
