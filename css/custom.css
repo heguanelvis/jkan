@@ -118,7 +118,15 @@ h2 {
 .nav-tabs > li.active > a:focus {
   background: whitesmoke;
   color: black;
-  border-color: black;
+}
+
+.nav-tabs > li > a:hover {
+  border: black black transparent;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background: whitesmoke;
 }
 
 .well {
