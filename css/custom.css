@@ -118,10 +118,11 @@ h2 {
 .nav-tabs > li.active > a:focus {
   background: whitesmoke;
   color: black;
+  border-color: black
 }
 
 .nav-tabs > li > a:hover {
-  border: black black transparent;
+  border: none;
 }
 
 .nav > li > a:hover,
