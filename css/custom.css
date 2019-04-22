@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Titan+One');
+@import url("https://fonts.googleapis.com/css?family=Raleway|Titan+One");
 
 /* 
 font-family: 'Titan One', cursive;
@@ -13,7 +13,7 @@ body {
     #ffd194,
     #70e1f5
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar,
@@ -45,14 +45,15 @@ div.list-group > .list-group-item {
   background: rgba(0, 0, 0, 0.5);
 }
 
-span.badge, span.label-default {
+span.badge,
+span.label-default {
   background: rgba(0, 0, 0, 0.5);
   color: whitesmoke;
 }
 
 dataset {
   color: black;
-  border-bottom: 1px whitesmoke solid
+  border-bottom: 1px whitesmoke solid;
 }
 
 .media-body > p {
@@ -71,24 +72,33 @@ table>tbody>tr>td, .table>tbody>tr>td {
   color: whitesmoke;
 } */
 
-.table-striped>tbody>tr:nth-of-type(odd) {
-  background: rgba(0, 0, 0, 0.7) 
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.table-striped>tbody>tr:nth-of-type(even), 
-.table-striped>tbody>tr:nth-of-type(even)>td>a {
+.table-striped > tbody > tr:nth-of-type(even),
+.table-striped > tbody > tr:nth-of-type(even) > td > a {
   color: black;
 }
 
-h1 > span, h1 + p, h2 {
-    color: black;
+h1 > span,
+h1 + p,
+h2 {
+  color: black;
 }
 
 .jumbotron > h1 + p {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .jumbotron > h1 {
-    font-family: 'Titan One', cursive;
-    font-size: 4rem;
+  font-family: "Titan One", cursive;
+  font-size: 4rem;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
 }
