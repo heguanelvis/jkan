@@ -111,3 +111,8 @@ h2 {
   background: whitesmoke;
   color: black;
 }
+
+li[role="presentation"].active {
+  background: whitesmoke;
+  color: black;
+}
