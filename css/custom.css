@@ -100,6 +100,12 @@ h2 {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.dropdown-menu>li>a {
+.dropdown-menu > li > a {
   color: whitesmoke;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background: whitesmoke;
+  color: black;
 }
