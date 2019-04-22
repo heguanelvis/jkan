@@ -145,3 +145,7 @@ a.btn-default {
   background: rgba(0, 0, 0, 0.5);
   color: whitesmoke;
 }
+
+form label {
+  color: whitesmoke;
+}
