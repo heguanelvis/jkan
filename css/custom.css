@@ -118,5 +118,5 @@ h2 {
 .nav-tabs > li.active > a:focus {
   background: whitesmoke;
   color: black;
-  border: 1px solid black;
+  border-color: black;
 }
