@@ -23,6 +23,10 @@ a.thumbnail {
   color: whitesmoke;
 }
 
+a.thumbnail:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a,
@@ -32,6 +36,20 @@ a.thumbnail {
   color: black;
   font-weight: 1000;
   background: whitesmoke;
+}
+
+a.navbar-brand {
+  background: -webkit-linear-gradient(left, #fdd195, #71e1f4);
+  font-weight: 1000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a.navbar-brand:hover {
+  background: -webkit-linear-gradient(left, #71e1f4, #fdd195);
+  font-weight: 1000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h3 {
@@ -94,7 +112,24 @@ h2 {
 
 .jumbotron > h1 {
   font-family: "Titan One", cursive;
-  font-size: 4rem;
+  font-size: 4.2rem;
+  background: -webkit-linear-gradient(left, #fdd195, #71e1f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: transition-text 2s ease-in-out infinite;
+}
+
+@keyframes transition-text {
+  from {
+    background: -webkit-linear-gradient(left, #fdd195, #71e1f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  to {
+    background: -webkit-linear-gradient(left, #71e1f4, #fdd195);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .dropdown-menu {
