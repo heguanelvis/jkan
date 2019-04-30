@@ -198,6 +198,13 @@ button.list-group-item:focus {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  background-color: #df691a;
+  border: none;
+}
+
 i.fa:hover,
 i.fa:focus,
 i.fa:active {
